@@ -3,7 +3,7 @@ import { Entity, Column, CreateDateColumn, UpdateDateColumn, PrimaryColumn } fro
 import { v4 as uuid } from 'uuid'
 
 @Entity("settings")
-class Seeting {
+class Setting {
     
     @PrimaryColumn()
     id: string;
@@ -28,4 +28,4 @@ class Seeting {
 
 }
 
-export { Seeting };
+export { Setting };
